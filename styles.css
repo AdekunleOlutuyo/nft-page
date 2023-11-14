@@ -6,7 +6,7 @@ body {
 .container {
   position: absolute;
   background-color: hsl(216, 50%, 16%);
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 20%);
   left: 50%;
   width: 350px;
   height: 600px;
