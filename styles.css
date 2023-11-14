@@ -1,0 +1,94 @@
+body {
+  font-family: Outfit;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  position: absolute;
+  background-color: hsl(216, 50%, 16%);
+  transform: translate(-50%, 50%);
+  left: 50%;
+  width: 350px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nft {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  margin-left: 25px;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 300px;
+  margin-left: 25px;
+}
+
+.svg {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.time {
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+
+hr {
+  width: 90%;
+  color: hsla(215, 32%, 26%, 0.227);
+}
+
+.creator {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.artist {
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+
+.artist-name {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
